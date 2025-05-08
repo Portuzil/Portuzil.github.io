@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>pootis.tf2</title>
+<style>
+
+
+body {
+    text-align: center;
+}
+img, audio {
+    display: block;
+    margin: 0 auto;
+}
+.center-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+.center-row img {
+    width: 40px;
+    height: 20px;
+}
+.Promo {
+    display: inline flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+</style>
+</head>
+<body>
+<link rel="stylesheet" href="other.css">
+<h1>Team Fortress 2</h1>
+
+<p>Team Fortress 2, often abreviated to TF2, is a team-based class first person shooter developed and published by Valve in 2007. With 9 different mercinaries to play as, there are multiple different playstyles avaliable.</p>
+
+<p>TF2 is enjoyable because of many things, but one of the biggest reasons is the game's humor. You can dance your way through a battlefield and nobody will bat an eye. You can kill people with frying pans and fish wrapped in newspaper. You can throw bottles of milk filled with mutated bread. You can make a fingergun to send your enemy flying across the map. It's just pure fun.</p>
+
+<p>And the best (and sometimes worst) thing about TF2 is the community. Many cosmetics, taunts, and even maps in the game were firs made by community mod makers.</p>
+<div> <img id="meem-img" src="https://static.wikia.nocookie.net/slenderfortress/images/0/03/MeeM.png/revision/latest?cb=20150111064129" alt="MeeM" width="50" height="100">
+    Press MeeM to MeeM
+</div>
+
+<div class="center-row">
+    <img src="https://media.tenor.com/tucmrFO9bcAAAAAj/sandvich-sandwich.gif" alt="Sandvich">
+    <a href="https://www.teamfortress.com">Team Fortress 2</a>
+    <img src="https://media.tenor.com/tucmrFO9bcAAAAAj/sandvich-sandwich.gif" alt="Sandvich">
+</div>
+
+<br><br>
+
+<!-- Background looping audio -->
+<audio id="bg-music" autoplay loop>
+    <source src="14.-Archimedes.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    const meemImg = document.getElementById("meem-img");
+
+    meemImg.addEventListener("click", () => {
+        const sound = new Audio("meemstart.mp3");
+        sound.play();
+    });
+</script>
+<script>
+    document.addEventListener('click', () =>{
+        const audio = document.getElementById("bg-music");
+        audio.mutes = false;
+        audio.play();
+    });
+</script>
+<div class="Promo">
+    <p> Website made by</p>
+    <a href="file:///C:/Users/000000020.AD.000/Documents/GitHub/web-1-2-basic-bio-Portuzil/Portuzil%20Home.html">Portuzil</a>
+</div>
+<br>
+</body>
+</html>
+

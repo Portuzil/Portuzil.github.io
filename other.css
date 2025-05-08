@@ -1,0 +1,92 @@
+body {
+    background-color: #2e2a28;
+    background-image: url(https://pixeljoint.com/files/icons/full/fire_stage05copie.gif);
+    background-position: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0; 
+}
+.body {
+    background-color: #2e2a28;
+    background-image: url(https://images.steamusercontent.com/ugc/2048629311557744158/9997D869BBE3200482F0A7364BFCB7A7F8BC06E1/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    background-position: middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color:#000000;
+    text-shadow: 2px 2px rgb(125, 125, 125);
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
+p {
+    color:#000000;
+    font-family: 'Courier New', Courier, monospace;
+}
+div {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* unvisited link */
+a:link {
+    color: blue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  body {
+    text-align: center;
+}
+img, audio {
+    display: block;
+    margin: 0 auto;
+}
+.center-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+.credit {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    text-shadow: 
+}
+.Alt {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+.center-row img {
+    width: 40px;
+    height: 20px;
+}
+.images {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+}
